@@ -4,7 +4,7 @@ import { Nav } from "@/components/site/Nav"
 import { HeroBoundary } from "@/components/site/HeroBoundary"
 import { TransformationStory } from "@/components/site/TransformationStory"
 // import { SignatureScene } from "@/components/site/SignatureScene"
-// import { ProtectionSystems } from "@/components/site/ProtectionSystems"
+import { ProtectionSystems } from "@/components/site/ProtectionSystems"
 // import { ProofOfPermanence } from "@/components/site/ProofOfPermanence"
 // import { ProtectionProcess } from "@/components/site/ProtectionProcess"
 // import { SecureCTA } from "@/components/site/SecureCTA"
@@ -19,12 +19,12 @@ export default function HomePage() {
       <Nav />
       <HeroBoundary />
       <TransformationStory />
-      {/* <SignatureScene />
+      {/* <SignatureScene /> */}
       <ProtectionSystems />
-      <ProofOfPermanence />
-      <ProtectionProcess />
-      <SecureCTA />
-      <Footer /> */}
+      {/* <ProofOfPermanence /> */}
+      {/* <ProtectionProcess /> */}
+      {/* <SecureCTA /> */}
+      {/* <Footer /> */}
     </main>
   )
 }
