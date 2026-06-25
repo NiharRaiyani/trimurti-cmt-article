@@ -25,8 +25,6 @@ export const metadata: Metadata = {
   description: "Boundary protection systems and precast solutions.",
 }
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
