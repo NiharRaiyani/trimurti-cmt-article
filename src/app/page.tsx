@@ -5,7 +5,7 @@ import { HeroBoundary } from "@/components/site/HeroBoundary"
 import { TransformationStory } from "@/components/site/TransformationStory"
 // import { SignatureScene } from "@/components/site/SignatureScene"
 import { ProtectionSystems } from "@/components/site/ProtectionSystems"
-// import { ProofOfPermanence } from "@/components/site/ProofOfPermanence"
+import { ProofOfPermanence } from "@/components/site/ProofOfPermanence"
 // import { ProtectionProcess } from "@/components/site/ProtectionProcess"
 // import { SecureCTA } from "@/components/site/SecureCTA"
 import { Footer } from "@/components/site/Footer"
@@ -21,7 +21,7 @@ export default function HomePage() {
       <TransformationStory />
       {/* <SignatureScene /> */}
       <ProtectionSystems />
-      {/* <ProofOfPermanence /> */}
+      <ProofOfPermanence />
       {/* <ProtectionProcess /> */}
       {/* <SecureCTA /> */}
       <Footer />
