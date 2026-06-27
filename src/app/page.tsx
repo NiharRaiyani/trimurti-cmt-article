@@ -7,7 +7,7 @@ import { TransformationStory } from "@/components/site/TransformationStory"
 import { ProtectionSystems } from "@/components/site/ProtectionSystems"
 import { ProofOfPermanence } from "@/components/site/ProofOfPermanence"
 import { ProtectionProcess } from "@/components/site/ProtectionProcess"
-// import { SecureCTA } from "@/components/site/SecureCTA"
+import { SecureCTA } from "@/components/site/SecureCTA"
 import { Footer } from "@/components/site/Footer"
 import { useLenis } from "@/hooks/useLenis"
 
@@ -23,7 +23,7 @@ export default function HomePage() {
       <ProtectionSystems />
       <ProofOfPermanence />
       <ProtectionProcess />
-      {/* <SecureCTA /> */}
+      <SecureCTA />
       <Footer />
     </main>
   )
