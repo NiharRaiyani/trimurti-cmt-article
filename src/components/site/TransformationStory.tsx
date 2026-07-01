@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import Image from "next/image";
-import emptyLand from "@/assets/hero-empty-land.jpg";
+import emptyLand from "@/assets/empty-land.jpeg";
 import wallImg from "@/assets/Protection-wall.jpeg";
 import aerial from "@/assets/Protected.jpeg";
 import boundary from "@/assets/Boundary.jpeg";
