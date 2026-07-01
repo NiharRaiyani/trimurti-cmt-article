@@ -4,9 +4,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import Image from "next/image";
 import emptyLand from "@/assets/hero-empty-land.jpg";
-import wallImg from "@/assets/wall-cinematic.jpg";
-import aerial from "@/assets/aerial-protected.jpg";
-import boundary from "@/assets/boundary.jpg";
+import wallImg from "@/assets/Protection-wall.jpeg";
+import aerial from "@/assets/Protected.jpeg";
+import boundary from "@/assets/Boundary.jpeg";
 
 const chapters = [
   {

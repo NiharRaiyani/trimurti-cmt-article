@@ -159,15 +159,11 @@ export function HeroBoundary() {
           and ready-made structures — manufactured in Dadri, installed across North India.
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-3">
-          <a ref={ctaRef} href="https://wa.me/917987674523"
+          <a ref={ctaRef} href="https://wa.me/919726226674"
             className="hero-cta btn-magnetic group inline-flex items-center gap-3 bg-highlight text-background px-6 py-4 font-mono   text-[11px] tracking-[0.22em] uppercase">
             Protect My Plot
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </a>
-          {/* <a href="tel:+917987674523"
-            className="hero-cta inline-flex items-center gap-3 border border-foreground/30 hover:border-highlight hover:text-highlight px-6 py-4 font-mono text-[11px] tracking-[0.22em] uppercase transition-colors">
-            Call Divyesh
-          </a> */}
         </div>
       </div>
     </section>
