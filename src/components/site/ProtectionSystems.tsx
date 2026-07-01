@@ -4,18 +4,17 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import wallImg from "@/assets/wall-cinematic.jpg";
-import cabin from "@/assets/cabin.jpg";
-import room from "@/assets/room.jpg";
-import fence from "@/assets/fence.jpg";
-import panels from "@/assets/panels.jpg";
+import wallImg from "@/assets/rcc-cinematic.jpeg";
+import designed from "@/assets/HevyDuty.jpeg";
+import room from "@/assets/Room.jpeg";
+import fence from "@/assets/wire-wall.jpeg";
+
 
 const systems = [
-  { n: "01", verb: "Protect the", noun: "Boundary", product: "Compound Walls", img: wallImg, h: "Up to 12 ft tall, single-pour RCC panels with H-section posts." },
-  { n: "02", verb: "Protect the", noun: "Entrance", product: "Security Cabins", img: cabin, h: "Modular precast cabins, wired and ready in 48 hours on site." },
-  { n: "03", verb: "Protect the", noun: "Workforce", product: "Precast Rooms", img: room, h: "Ready-made rooms for site office, storage and labour quarters." },
-  { n: "04", verb: "Protect the", noun: "Perimeter", product: "Fencing Systems", img: fence, h: "Concrete-post fencing with mesh or barbed crown options." },
-  { n: "05", verb: "Protect the", noun: "Future", product: "Ready-Made Structures", img: panels, h: "Custom precast modules manufactured at our Dadri facility." },
+  { n: "01", verb: "Protect the", noun: "Boundary", product: "Pre-Stressed Precast Walls", img: wallImg, h: "Up to 10 ft tall, single-pour RCC panels with H-section posts." },
+  { n: "02", verb: "Protect the", noun: "Entrance", product: "Heavy Duty Designed Precast Walls", img: designed, h: "Up to 10 ft tall, pre Mold precast." },
+  { n: "03", verb: "Protect the", noun: "Roof", product: "Precast Rooms", img: room, h: "Ready-made rooms for site office, storage and labour quarters." },
+  { n: "04", verb: "Protect the", noun: "Perimeter", product: "Fencing Systems", img: fence, h: "Concrete precast poll fencing with barbed wire." }
 ];
 
 function splitChars(text: string) {
