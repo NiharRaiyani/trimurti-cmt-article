@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const links = [
   { label: "Story", href: "#story" },
@@ -23,20 +24,28 @@ export function Nav() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled ? "backdrop-blur-md bg-background/70 border-b border-border" : ""
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${scrolled ? "backdrop-blur-md bg-background/70 border-b border-border" : ""
+        }`}
     >
       <div className="mx-auto flex max-w-[1600px] items-center justify-between px-5 py-4 md:px-10 md:py-5">
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="inline-block h-7 w-7 border border-foreground/60 relative">
+          {/* <span className="inline-block h-7 w-7 border border-foreground/60 relative">
             <span className="absolute inset-1 bg-highlight" />
-          </span>
-          <span className="font-mono text-[11px] leading-tight tracking-[0.18em] uppercase">
-            Trimurti
-            <br />
-            <span className="text-muted-foreground">Cement Article</span>
-          </span>
+          </span> */}
+          <div className="flex items-center gap-2.5">
+            <Image
+              src="/TCA.png"
+              alt="Trimurti Cement Article"
+              width={50}
+              height={50}
+              className="object-contain"
+            /> 
+            <span className="font-mono text-[11px] leading-tight tracking-[0.18em] uppercase">
+              Trimurti
+              <br />
+              <span className="text-muted-foreground">Cement Article</span>
+            </span>
+            </div>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -52,7 +61,7 @@ export function Nav() {
         </nav>
 
         <a
-          href="https://wa.me/917987674523"
+          href="https://wa.me/919723226674"
           className="hidden md:inline-flex items-center gap-2 border border-foreground/30 hover:border-highlight hover:text-highlight px-4 py-2 font-mono text-[11px] tracking-[0.22em] uppercase transition-colors"
         >
           Protect My Plot →
@@ -83,7 +92,7 @@ export function Nav() {
               </a>
             ))}
             <a
-              href="https://wa.me/917987674523"
+              href="https://wa.me/919723226674"
               className="mt-2 inline-flex w-fit items-center gap-2 bg-highlight text-background px-5 py-3 font-mono text-[11px] tracking-[0.22em] uppercase"
             >
               Protect My Plot →

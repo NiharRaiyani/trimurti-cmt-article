@@ -49,7 +49,7 @@ export function SecureCTA() {
         </h2>
 
         <div className="mt-12 md:mt-16 flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a ref={waRef} href="https://wa.me/917987674523"
+          <a ref={waRef} href="https://wa.me/919723226674"
             className="cta-btn btn-magnetic group inline-flex items-center gap-3 bg-highlight text-background px-7 py-5 font-mono text-[12px] tracking-[0.24em] uppercase">
             ◉ Protect My Plot
             <span className="transition-transform group-hover:translate-x-1">→</span>
